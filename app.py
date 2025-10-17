@@ -6,7 +6,7 @@ import xgboost as xgb
 # ------------------------------
 # Load data and model
 # ------------------------------
-df = pd.read_csv("tel_churn.csv")   # Already encoded and tenure_grouped
+df = pd.read_csv("tel_churn (1).csv")  
 model = pickle.load(open("model.sav", "rb"))  # XGBoost model
 
 st.set_page_config(page_title="Customer Churn Predictor", page_icon="📊", layout="wide")
